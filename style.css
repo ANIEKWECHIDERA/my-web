@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid white;
+    background-color: black;
+    z-index: 5;
+    width: 100%;
+    height: 97.75;
+    position: fixed;
+    top: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+nav img{
+    width: 100px;
+    border-radius: 3px;
+}
+
+nav h2{
+    font-weight: 300;
+}
+
+.hero-section{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 100px 300px;
+}
+
+/* section {
+    margin: 0 auto;
+} */
+
+.about{
+    text-align: center;
+    margin: auto 0;
+}
+
+.about h2{
+    font-size: 100px;
+    margin-bottom: 10px;
+    background: linear-gradient(to right,  #00c3c3, #00dcdc, #00f2f2, #ffbf80, #ff9f40, #ff8c00);
+
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent ;
+    animation: animate-gradient 3.5s linear infinite;
+}
+
+@keyframes animate-gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.about p{
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-btn{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 20px auto 0 auto;
+    transition: all 200ms ease
+}
+
+.about-btn:hover{
+    transition: all 200ms ease;
+    background: white;
+    color: black;
+}
+
+.img-cnct img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 200ms ease;
+}
+
+.img-cnct img:hover{
+    transform: scale(1.01);
+    transition: all 200ms ease;
+}
+
+.img-cnct h3{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.socials{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.socials a{
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    transition: all 200ms ease;
+}
+
+.socials a:hover{
+    background-color: white;
+    color: black;
+    transition: all 200ms ease;
+}
+
+.socials .twitter-x{
+    background-color: white;
+    color: black;
+    transition: all 200ms ease;
+}
+
+.socials .twitter-x:hover{
+    background-color: black;
+    color: white;
+    transition: all 200ms ease;
+}
+
+.back-img{
+    transform: scale(1.5);
+    position: fixed;
+    z-index: -10;
+    top: 50px;
+    left: 700px;
+    opacity: 0.17;
+}
+
+#goals{
+    width: 50%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.goals h2{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.goal{
+    display: block;
+    margin-bottom: 25px;
+}
+
+hr{
+    margin-bottom: 25px;
+    opacity: 0.2;
+}
+
+.goal h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.goal h3{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.goal p{
+    font-weight: 200;
+}
+
+footer{
+        padding: 20px;
+        border-top: 1px solid white;
+        background-color: black;
+        z-index: 5;
+        width: 100%;
+        height:100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 50px;
+}
+
+footer p{
+    font-weight: 200;
+}
+
+footer a{
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 200ms ease;
+}
+
+footer a:hover{
+    background-color: white;
+    color: black;
+    transition: all 200ms ease;
+}
